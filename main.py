@@ -9,7 +9,7 @@ import webbrowser
 def bot_ngomong(voice_data):
 
     if "bagaimana kabarmu" in voice_data.lower():
-        audio_string = "Hai Joe, semua sistem online."
+        audio_string = "Hai ngab, semua sistem online."
     elif "hai" in voice_data.lower():
         audio_string = "Hai, apa yang bisa saya bantu?"
     elif 'bitcoin' in voice_data.lower():
